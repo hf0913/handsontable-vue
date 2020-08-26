@@ -1,0 +1,16 @@
+#maple-table {
+    position: relative;
+}
+.empty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100% - 27px);
+    color: #c0c4cc;
+    position: absolute;
+    top: 27px;
+    left: 0;
+    z-index: 1105;
+    font-size: 18px;
+}
